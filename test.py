@@ -38,7 +38,7 @@ knn = KNeighborsClassifier(n_neighbors=5)
 knn.fit(FACES, LABELS)
 
 # Load background image
-imgBackground = cv2.imread("backgnd.png")
+imgBackground = cv2.imread("background.png")
 
 COL_NAMES = ['NAME', 'TIME']
 
